@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ebookshelfproject-dev-234359-authRole",
+      "UnauthRoleArn": "arn:aws:iam::513990107642:role/amplify-ebookshelfproject-dev-234359-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::513990107642:role/amplify-ebookshelfproject-dev-234359-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-ebookshelfproject-dev-234359-deployment",
+      "UnauthRoleName": "amplify-ebookshelfproject-dev-234359-unauthRole",
+      "StackName": "amplify-ebookshelfproject-dev-234359",
+      "StackId": "arn:aws:cloudformation:eu-west-2:513990107642:stack/amplify-ebookshelfproject-dev-234359/76fb3690-755f-11eb-9fca-0a65bbdb93a8",
+      "AmplifyAppId": "d18ojwc671o2ug"
+    }
+  }
+}
