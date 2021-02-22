@@ -2,7 +2,10 @@
 @import "./mixins.scss";
 
 html,
-body {
+body,
+#__next,
+.fullHeight {
+	height: 100%;
 	padding: 0;
 	margin: 0;
 	font-family: $FONT_MAIN;
@@ -25,6 +28,7 @@ a {
 
 h1 {
 	font-family: $FONT_TITLE;
+	text-align: center;
 }
 
 *,
@@ -33,4 +37,13 @@ h1 {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px;
+	margin: 0 auto;
+	width: 100%;
+	min-height: calc(100% - #{$HEADER_DEFAULT} - #{$FOOTER_DEFAULT});
 }
