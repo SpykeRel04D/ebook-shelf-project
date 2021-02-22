@@ -10,6 +10,7 @@
 
 -   [x] NextJS
 -   [ ] TypeScript
+-   [ ] Code Test (Jest)
 -   [ ] SASS
 -   [ ] Mobile First
 -   [ ] GraphQL
