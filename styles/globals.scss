@@ -8,6 +8,10 @@ body,
 	height: 100%;
 	padding: 0;
 	margin: 0;
+}
+
+body {
+	background-color: $color_dark01;
 	font-family: $FONT_MAIN;
 	font-size: 16px;
 	font-weight: 400;
@@ -28,7 +32,16 @@ a {
 
 h1 {
 	font-family: $FONT_TITLE;
+	font-size: 2rem;
 	text-align: center;
+	color: $color_font_title;
+	-webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+}
+
+h2,
+h3,
+h4 {
+	color: $color_font_white_01;
 }
 
 *,
@@ -46,4 +59,5 @@ h1 {
 	margin: 0 auto;
 	width: 100%;
 	min-height: calc(100% - #{$HEADER_DEFAULT} - #{$FOOTER_DEFAULT});
+	color: $color_font_white_02;
 }

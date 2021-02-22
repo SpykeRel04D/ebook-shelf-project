@@ -9,9 +9,9 @@
 ### Technology/Technical Objectives
 
 -   [x] NextJS
--   [ ] TypeScript
+-   [x] TypeScript
 -   [ ] Code Test (Jest)
--   [ ] SASS
+-   [x] SASS
 -   [ ] Mobile First
 -   [ ] GraphQL
 -   [ ] AWS Amplify
