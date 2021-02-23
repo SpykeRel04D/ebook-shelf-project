@@ -1,8 +1,8 @@
 import Head from "next/head";
-
+import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 import MainLayout from "../layouts/MainLayout";
 
-export default function Home() {
+function Home() {
 	return (
 		<MainLayout>
 			<h2>Sub-Header</h2>
@@ -13,6 +13,9 @@ export default function Home() {
 				fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
 				deserunt mollit anim id est laborum.
 			</p>
+			<AmplifySignOut />
 		</MainLayout>
 	);
 }
+
+export default withAuthenticator(Home);

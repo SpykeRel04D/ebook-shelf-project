@@ -1,6 +1,12 @@
 @import "./variables.scss";
 @import "./mixins.scss";
 
+:root {
+	--amplify-primary-color: #{$color_font_title};
+	--amplify-primary-tint: #{$color_font_title};
+	--amplify-primary-shade: #{$color_font_title};
+}
+
 html,
 body,
 #__next,
@@ -32,7 +38,7 @@ a {
 
 h1 {
 	font-family: $FONT_TITLE;
-	font-size: 2rem;
+	font-size: 1.75rem;
 	text-align: center;
 	color: $color_font_title;
 	-webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);

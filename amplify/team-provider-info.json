@@ -10,6 +10,11 @@
       "StackName": "amplify-ebookshelfproject-dev-234359",
       "StackId": "arn:aws:cloudformation:eu-west-2:513990107642:stack/amplify-ebookshelfproject-dev-234359/76fb3690-755f-11eb-9fca-0a65bbdb93a8",
       "AmplifyAppId": "d18ojwc671o2ug"
+    },
+    "categories": {
+      "auth": {
+        "ebookshelfproject650e1bf4": {}
+      }
     }
   }
 }

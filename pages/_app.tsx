@@ -1,4 +1,5 @@
 import Head from "next/head";
+import "../configureAmplify";
 import { AppProps } from "next/dist/next-server/lib/router/router";
 import "../styles/globals.scss";
 
